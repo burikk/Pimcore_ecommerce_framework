@@ -14,5 +14,7 @@ pimcore_ecommerce_framework:
                         type: 'varchar(255)'
                     price:
                         type: 'int'
+                    text:
+                        type: 'varchar(510)'
                     
 
