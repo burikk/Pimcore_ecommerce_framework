@@ -1,5 +1,6 @@
 imports:
     - { resource: services.yaml }
+    - { resource: ecommerce.yaml }
     - { resource: 'local/' }
 
 

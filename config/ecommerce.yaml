@@ -1,0 +1,15 @@
+
+
+pimcore_ecommerce_framework:
+
+    index_service:
+        index_service_id:     Pimcore\Bundle\EcommerceFrameworkBundle\IndexService\IndexService  
+        tenants:
+
+            default:
+
+                config_id: 'Pimcore\Bundle\EcommerceFrameworkBundle\IndexService\Config\DefaultMysql'
+                attributes:
+                    name:
+                        type: 'varchar(255)'
+
