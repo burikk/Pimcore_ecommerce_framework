@@ -12,4 +12,7 @@ pimcore_ecommerce_framework:
                 attributes:
                     name:
                         type: 'varchar(255)'
+                    price:
+                        type: 'int'
+                    
 
